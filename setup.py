@@ -1,16 +1,16 @@
 import setuptools
 
 with open('README.md','r') as file:
-    long_description = file.read()
+    long_desc = file.read()
 
 
 setuptools.setup(
     name = 'preprocess_nlp_Cesar_Arcos', # this should be unique
     version = '0.0.1',
-    author = 'César Arcos González',
+    author = 'Cesar Arcos Gonzalez',
     author_email = 'cesar99ag@gmail.com',
     description = 'This is preprocessing package'
-    long_description = long_description,
+    long_description = long_desc,
     long_description_content_type = 'text/markdown'
     packages = setuptools.find_packages(),
     classifiers = [
